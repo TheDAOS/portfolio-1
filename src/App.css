@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./fonts/Minecraft.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('./fonts/Minecraftia-Regular.ttf') format('truetype');
+}
+
+@theme {
+    --font-minecraft: 'Minecraft';
+    --font-minecraftia: 'Minecraftia';
+}
