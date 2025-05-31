@@ -6,7 +6,7 @@ import PersonalProject from './pages/PersonalProject';
 function App() {
 
   return (
-    <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
+    <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
       <NavBar />
       <div className="snap-start h-screen">
         <Home />
