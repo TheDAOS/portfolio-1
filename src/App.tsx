@@ -1,23 +1,24 @@
-import './App.css'
-import Home from './pages/Home'
-import NavBar from './pages/NavBar'
+import './App.css';
+import Home from './pages/Home';
+import NavBar from './pages/NavBar';
+import PersonalProject from './pages/PersonalProject';
 
 function App() {
 
   return (
-    <div className="snap-y snap-mandatory">
+    <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
       <NavBar />
-      <div className="snap-center snap-always">
+      <div className="snap-start h-screen">
         <Home />
       </div>
-      <div className="snap-center snap-always">
-        <Home />
+      <div className="snap-start h-screen">
+        <PersonalProject />
       </div>
-      <div className="snap-center snap-always">
+      <div className="snap-start h-screen">
         <Home />
       </div>
     </div>
   )
 }
 
-export default App
+export default App;
